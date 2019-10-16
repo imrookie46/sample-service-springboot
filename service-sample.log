@@ -5831,3 +5831,152 @@ com.netflix.client.ClientException: Load balancer does not have available server
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.26.jar:9.0.26]
 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
 
+2019-10-16 18:59:15.051  INFO 6436 --- [restartedMain] com.nu.sample.SampleApplication          : No active profile set, falling back to default profiles: default
+2019-10-16 18:59:16.988  WARN 6436 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-10-16 18:59:17.415  INFO 6436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-16 18:59:17.450  INFO 6436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-10-16 18:59:17.648  WARN 6436 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-10-16 18:59:17.743  WARN 6436 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-10-16 18:59:18.531  INFO 6436 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eb127277-39ec-3df4-afb2-1391262e73f7
+2019-10-16 18:59:18.567  INFO 6436 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-10-16 18:59:18.573  INFO 6436 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-10-16 18:59:18.580  INFO 6436 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-10-16 18:59:18.828  INFO 6436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65cc5dc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 18:59:18.892  INFO 6436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 18:59:18.950  INFO 6436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$d0be18f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 18:59:18.969  INFO 6436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$ac502412] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 18:59:18.993  INFO 6436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$e537ccdf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 18:59:19.006  INFO 6436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 18:59:19.050  INFO 6436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$81e660c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 18:59:19.127 ERROR 6436 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.12] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-10-16 18:59:19.676 ERROR 6436 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.12] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-10-16 18:59:20.288  INFO 6436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8094 (http)
+2019-10-16 18:59:20.343 ERROR 6436 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.12] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-10-16 18:59:20.365  INFO 6436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-16 18:59:20.366  INFO 6436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-16 18:59:20.673  INFO 6436 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-16 18:59:20.674  INFO 6436 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5593 ms
+2019-10-16 18:59:20.907  WARN 6436 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-16 18:59:20.907  INFO 6436 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-16 18:59:20.931  INFO 6436 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2eb38c87
+2019-10-16 18:59:22.560  INFO 6436 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-10-16 18:59:23.253  INFO 6436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-16 18:59:23.470  INFO 6436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-16 18:59:23.579  INFO 6436 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-16 18:59:23.783  INFO 6436 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-16 18:59:23.788  INFO 6436 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-16 18:59:24.179  INFO 6436 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-16 18:59:24.530  INFO 6436 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-10-16 18:59:24.645  INFO 6436 --- [restartedMain] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-10-16 18:59:24.653  INFO 6436 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@27162dea
+2019-10-16 18:59:26.216  INFO 6436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-16 18:59:26.277  INFO 6436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-16 18:59:26.884  INFO 6436 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3611b1ce-912d-4f3c-bf79-d69ed441a1a1
+
+2019-10-16 18:59:26.966  INFO 6436 --- [restartedMain] ecurity$$EnhancerBySpringCGLIB$$bb2c8838 : security scan
+2019-10-16 18:59:27.031  INFO 6436 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fd8754d, org.springframework.security.web.context.SecurityContextPersistenceFilter@7382fb3f, org.springframework.security.web.header.HeaderWriterFilter@1476734f, org.springframework.security.web.authentication.logout.LogoutFilter@222edd1e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24964a4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@229e6721, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67114254, org.springframework.security.web.session.SessionManagementFilter@72b3264e, org.springframework.security.web.access.ExceptionTranslationFilter@4685a39d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d561c89]
+2019-10-16 18:59:27.063  WARN 6436 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-16 18:59:27.063  INFO 6436 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-16 18:59:27.524  INFO 6436 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-16 18:59:27.605  WARN 6436 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-16 18:59:28.989  INFO 6436 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-16 18:59:29.147  INFO 6436 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2019-10-16 18:59:29.449  INFO 6436 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2019-10-16 18:59:29.605  INFO 6436 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2019-10-16 18:59:29.727  INFO 6436 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2019-10-16 18:59:29.755  INFO 6436 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2019-10-16 18:59:29.773  INFO 6436 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2019-10-16 18:59:29.821  INFO 6436 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@6f904989
+2019-10-16 18:59:29.964  INFO 6436 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-10-16 18:59:29.964  INFO 6436 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2019-10-16 18:59:29.965  INFO 6436 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2019-10-16 18:59:30.568  INFO 6436 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2019-10-16 18:59:30.762  INFO 6436 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#592405ff:0/SimpleConnection@7f18e6f5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62642]
+2019-10-16 18:59:30.870  INFO 6436 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2019-10-16 18:59:30.897  INFO 6436 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-10-16 18:59:31.023  INFO 6436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-10-16 18:59:31.026  INFO 6436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-10-16 18:59:31.049  INFO 6436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1571227171047 with initial instances count: 0
+2019-10-16 18:59:31.061  INFO 6436 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-SAMPLE with eureka with status UP
+2019-10-16 18:59:31.130  INFO 6436 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.3RLBIzFfR3iqqLvIFoy3Lw, bound to: springCloudBus
+2019-10-16 18:59:31.236  INFO 6436 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.3RLBIzFfR3iqqLvIFoy3Lw.errors
+2019-10-16 18:59:31.385  INFO 6436 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.3RLBIzFfR3iqqLvIFoy3Lw.errors' has 1 subscriber(s).
+2019-10-16 18:59:31.387  INFO 6436 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.3RLBIzFfR3iqqLvIFoy3Lw.errors' has 2 subscriber(s).
+2019-10-16 18:59:31.454  INFO 6436 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.springCloudBus.anonymous.3RLBIzFfR3iqqLvIFoy3Lw
+2019-10-16 18:59:31.572  INFO 6436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8094 (http) with context path ''
+2019-10-16 18:59:31.574  INFO 6436 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8094
+2019-10-16 18:59:32.086  INFO 6436 --- [restartedMain] com.nu.sample.SampleApplication          : Started SampleApplication in 19.288 seconds (JVM running for 20.129)
+2019-10-16 19:00:48.259  INFO 4652 --- [Test worker] com.nu.sample.SampleApplicationTests     : No active profile set, falling back to default profiles: default
+2019-10-16 19:00:49.797  WARN 4652 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-10-16 19:00:50.249  INFO 4652 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-16 19:00:50.313  INFO 4652 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 0 repository interfaces.
+2019-10-16 19:00:50.455  WARN 4652 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-10-16 19:00:50.549  WARN 4652 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-10-16 19:00:51.204  INFO 4652 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=12ab8b49-9851-31f7-9074-c1b9cd467d48
+2019-10-16 19:00:51.354  INFO 4652 --- [Test worker] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-10-16 19:00:51.365  INFO 4652 --- [Test worker] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-10-16 19:00:51.379  INFO 4652 --- [Test worker] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-10-16 19:00:51.421  INFO 4652 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'com.nu.sample.data.AlbumServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 19:00:51.689  INFO 4652 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$84d31b55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 19:00:51.788  INFO 4652 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 19:00:51.870  INFO 4652 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$efc4d684] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 19:00:51.939  INFO 4652 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a0ed1e52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-16 19:00:52.676  INFO 4652 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-16 19:00:52.875  INFO 4652 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-16 19:00:53.061  INFO 4652 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-16 19:00:53.304  INFO 4652 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-16 19:00:53.308  INFO 4652 --- [Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-16 19:00:53.621  INFO 4652 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-16 19:00:53.956  INFO 4652 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-10-16 19:00:54.080  INFO 4652 --- [Test worker] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-10-16 19:00:54.087  INFO 4652 --- [Test worker] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5978141e
+2019-10-16 19:00:55.240  INFO 4652 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-16 19:00:56.335  WARN 4652 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-16 19:00:56.335  INFO 4652 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-16 19:00:56.355  INFO 4652 --- [Test worker] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@335bc28b
+2019-10-16 19:00:56.769  INFO 4652 --- [Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-10-16 19:00:57.677  INFO 4652 --- [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c64fa65a-fb91-4556-a4d1-b9583c27bb0f
+
+2019-10-16 19:00:57.800  INFO 4652 --- [Test worker] ecurity$$EnhancerBySpringCGLIB$$da3345ca : security scan
+2019-10-16 19:00:57.992  INFO 4652 --- [Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72cf283e, org.springframework.security.web.context.SecurityContextPersistenceFilter@160dd5, org.springframework.security.web.header.HeaderWriterFilter@1dc5ed1c, org.springframework.security.web.authentication.logout.LogoutFilter@2b765e19, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3053e764, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36fcbfe4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e4aa090, org.springframework.security.web.session.SessionManagementFilter@f16d47d, org.springframework.security.web.access.ExceptionTranslationFilter@4a282671, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@171ec75d]
+2019-10-16 19:00:58.162 ERROR 4652 --- [Test worker] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.12] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-10-16 19:00:58.594  WARN 4652 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-16 19:00:58.595  INFO 4652 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-16 19:00:59.546  INFO 4652 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-16 19:00:59.676  WARN 4652 --- [Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-16 19:01:04.307  INFO 4652 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-16 19:01:04.769  INFO 4652 --- [Test worker] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2019-10-16 19:01:04.830  INFO 4652 --- [Test worker] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-10-16 19:01:04.831  INFO 4652 --- [Test worker] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2019-10-16 19:01:04.833  INFO 4652 --- [Test worker] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2019-10-16 19:01:05.919  INFO 4652 --- [Test worker] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2019-10-16 19:01:06.018  INFO 4652 --- [Test worker] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#5b621eb6:0/SimpleConnection@6e66ebff [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62809]
+2019-10-16 19:01:06.174  INFO 4652 --- [Test worker] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2019-10-16 19:01:06.260  INFO 4652 --- [Test worker] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.6PMXR4fZS425GgUNnq8SEw, bound to: springCloudBus
+2019-10-16 19:01:07.072  INFO 4652 --- [Test worker] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.6PMXR4fZS425GgUNnq8SEw.errors' has 1 subscriber(s).
+2019-10-16 19:01:07.073  INFO 4652 --- [Test worker] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.6PMXR4fZS425GgUNnq8SEw.errors' has 2 subscriber(s).
+2019-10-16 19:01:07.115  INFO 4652 --- [Test worker] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.springCloudBus.anonymous.6PMXR4fZS425GgUNnq8SEw
+2019-10-16 19:01:07.172  INFO 4652 --- [Test worker] com.nu.sample.SampleApplicationTests     : Started SampleApplicationTests in 20.957 seconds (JVM running for 23.269)
+2019-10-16 19:01:07.380  INFO 4652 --- [Thread-10] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-10-16 19:01:07.386  INFO 4652 --- [Thread-10] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-SAMPLE with eureka with status DOWN
+2019-10-16 19:01:07.494  INFO 4652 --- [Thread-10] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2019-10-16 19:01:08.165  INFO 4652 --- [Thread-10] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2019-10-16 19:01:08.166  INFO 4652 --- [Thread-10] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped inbound.springCloudBus.anonymous.6PMXR4fZS425GgUNnq8SEw
+2019-10-16 19:01:08.167  INFO 4652 --- [Thread-10] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.6PMXR4fZS425GgUNnq8SEw.errors' has 1 subscriber(s).
+2019-10-16 19:01:08.169  INFO 4652 --- [Thread-10] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.6PMXR4fZS425GgUNnq8SEw.errors' has 0 subscriber(s).
+2019-10-16 19:01:08.174  INFO 4652 --- [Thread-10] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-10-16 19:01:08.175  INFO 4652 --- [Thread-10] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2019-10-16 19:01:08.175  INFO 4652 --- [Thread-10] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2019-10-16 19:01:08.212  INFO 4652 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-16 19:01:08.216  INFO 4652 --- [Thread-10] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-10-16 19:01:08.249  INFO 4652 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-16 19:01:08.259  INFO 4652 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-16 19:01:08.273  INFO 4652 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
