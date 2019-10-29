@@ -54,9 +54,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'io.jsonwebtoken:jjwt:0.2'
 
-	// bus and actuator
-	implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
-	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	// bus and actuator -- dicomment dulu belum ada rabbitmq servernya
+	//implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
+	//implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
 	// communication
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
