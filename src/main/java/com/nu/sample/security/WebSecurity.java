@@ -1,3 +1,7 @@
+/**
+* Author: ImRookie46
+* 2019
+*/
 package com.nu.sample.security;
 
 import org.slf4j.Logger;
