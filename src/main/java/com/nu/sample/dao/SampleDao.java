@@ -1,3 +1,7 @@
+/**
+* Author: ImRookie46
+* 2019
+*/
 package com.nu.sample.dao;
 
 import com.nu.sample.data.SampleEntity;
