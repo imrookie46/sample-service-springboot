@@ -1,3 +1,7 @@
+/**
+* Author: ImRookie46
+* 2019
+*/
 package com.nu.sample.model;
 
 import javax.validation.constraints.NotNull;
