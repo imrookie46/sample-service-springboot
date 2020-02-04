@@ -33,32 +33,31 @@ ext {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// spring eureka - service registry
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 
-	// bus and actuator
-	implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
-	implementation 'org.springframework.boot:spring-boot-starter-actuator'
-
 	implementation 'org.modelmapper:modelmapper:2.3.3'
+
+	// spring security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'io.jsonwebtoken:jjwt:0.2'
 
 	// json xml format
 	compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.8'
 
 	// databases
+	// comment what you don't need
 	implementation 'org.postgresql:postgresql'
 	implementation 'mysql:mysql-connector-java'
 	//implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
-    //implementation 'org.springframework:spring-jdbc'
+    	//implementation 'org.springframework:spring-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
-	implementation 'org.springframework.boot:spring-boot-starter-security'
-	implementation 'io.jsonwebtoken:jjwt:0.2'
-
-	// bus and actuator -- dicomment dulu belum ada rabbitmq servernya
+	// bus and actuator -- comment this section if rabbitmq server is not ready
 	//implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
 	//implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
-	// communication
+	// communication between micro services
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
